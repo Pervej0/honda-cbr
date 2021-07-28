@@ -12,3 +12,35 @@ body {
 .btn__bg {
   background-color: #e76f51;
 }
+
+.Custom__textColor {
+  color: #e76f51;
+}
+
+.line {
+  width: 80px;
+  border: 1px solid #e76f51;
+
+  margin: 0 auto;
+}
+
+.featured .feaured__row div img {
+  filter: grayscale(100%);
+}
+
+.featured .feaured__row div:nth-child(2) img {
+  filter: grayscale(0);
+}
+
+/* latest News */
+.latest_News .row button {
+  color: #e76f51;
+  background-color: #ffffff;
+  border: 2px solid #e76f51;
+  transition: 0.4s all ease;
+}
+
+.latest_News .row button:hover {
+  background-color: #e76f51;
+  color: #ffffff;
+}
