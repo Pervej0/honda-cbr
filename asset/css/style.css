@@ -44,3 +44,9 @@ body {
   background-color: #e76f51;
   color: #ffffff;
 }
+
+/* Clients section  */
+
+.clients__ratings i {
+  color: #e77c40;
+}
